@@ -1,6 +1,7 @@
 問題１のドキュメントです。
 ## エンドポイントURL
-https://fibonacci-b55h.onrender.com
+https://fibonacci-l2vl.onrender.com
+
 ## ソースコードの構成
 fib.pyが指定したn番目のフィボナッチ数を返すREST APIで、test.pyがユニットテストです。renderを使って外部からリクエストを送信できるサーバ構築を行いました。
 ## REST API(fib.py)の概要
