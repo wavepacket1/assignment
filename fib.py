@@ -10,7 +10,7 @@ def fibonacci(n):
 
 
 app=Flask(__name__)
-@app.route('/')
+@app.route('/fib')
 def get_fibonacci():
     try:
         n=request.args.get('n',type=int)
