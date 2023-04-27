@@ -2,7 +2,7 @@
 ## エンドポイントURL
 https://fibonacci-5yvp.onrender.com/fib
 ## ソースコードの構成
-fib.pyが指定したn番目のフィボナッチ数を返すREST APIで、test.pyがユニットテストです。
+fib.pyが指定したn番目のフィボナッチ数を返すREST APIで、test.pyがユニットテストです。renderを使って外部からリクエストを送信できるサーバ構築を行いました。
 ## REST API(fib.py)の概要
 * Pythonのflaskを使用した。
 * フィボナッチ数を求める際にはフィボナッチ数列を求める際には動的計画法を用いた。
